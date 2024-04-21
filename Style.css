@@ -1,0 +1,148 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;  /* Set background to black */
+    color: white;             /* Set text color to white */
+    height: 100%;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px; /* Limits the maximum width */
+    margin: 20px auto;
+    text-align: center;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0 auto;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    min-height: calc(100vh - 140px); /* Adjust height to fill the screen minus header/footer */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.hero {
+    padding: 20px;
+    background-color: #242424; /* Slightly lighter black for contrast */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0062CC;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.logo {
+    height: 200px; /* Reducing the height as needed */
+    width: auto;  /* Keeps the aspect ratio intact */
+}
+.logo1{
+    height: 200px; /* Reducing the height as needed */
+    width: auto; 
+}
+p{
+padding: 5px 10px;
+}
+section {
+    padding: 20px;
+    background-color: #333; 
+    margin: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); 
+}
+.signin {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007BFF;
+}
+h2{
+ color: lightgoldenrodyellow;
+}
